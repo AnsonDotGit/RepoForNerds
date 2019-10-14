@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Device.Net;
+using Usb.Net.Windows;
 
 namespace WinForm
 {
@@ -15,6 +17,11 @@ namespace WinForm
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void MB1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
